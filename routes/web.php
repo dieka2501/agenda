@@ -37,3 +37,4 @@ Route::group(['prefix'=>'adminpanel'],function(){
 // Auth::routes();
 Route::get('/download','AgendaController@download')->name('download.agenda');	
 Route::get('/home', 'HomeController@index')->name('home');
+//Beda
